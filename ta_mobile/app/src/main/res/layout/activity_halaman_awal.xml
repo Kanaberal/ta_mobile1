@@ -10,6 +10,7 @@
 
     <TextView
         android:layout_width="wrap_content"
+
         android:layout_height="wrap_content"
         android:text="Nama APK"
         android:textAlignment="center"
@@ -27,14 +28,48 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Selamat datang"
+        android:fontFamily="@font/opensansbold"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521" />
+        app:layout_constraintVertical_bias="0.551" />
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="179dp"
+        android:fontFamily="@font/opensansbold"
+        android:text="Saaat kau terpuruk, percayalah bahwa ilmu yang sudah dipelajari akan berarti kemudian hari"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:background=""
+
+        android:contentDescription="next button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885"
+        app:srcCompat="@drawable/rgrp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
