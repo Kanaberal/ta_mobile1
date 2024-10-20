@@ -57,10 +57,10 @@
         app:layout_constraintVertical_bias="0.745" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/nextbtn"
         android:layout_width="202dp"
         android:layout_height="63dp"
-        android:background=""
+        android:background="@null"
 
         android:contentDescription="next button"
         app:layout_constraintBottom_toBottomOf="parent"

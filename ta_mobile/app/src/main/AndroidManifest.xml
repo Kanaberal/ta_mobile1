@@ -16,10 +16,10 @@
             android:name=".login"
             android:exported="false" />
         <activity
-            android:name=".halaman_awal"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".halaman_awal"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
