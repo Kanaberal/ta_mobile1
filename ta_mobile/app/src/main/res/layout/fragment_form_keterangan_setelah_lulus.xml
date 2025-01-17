@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".form_keterangan_setelah_lulus">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+
+        <ImageButton
+            android:id="@+id/kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="614dp"
+            android:layout_marginEnd="210dp"
+            android:layout_marginBottom="278dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="button 3"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/group_7143" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="491dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="328dp"
+            android:src="@drawable/rectangle_2590" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="403dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="416dp"
+            android:src="@drawable/rectangle_2590" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="311dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="508dp"
+            android:src="@drawable/rectangle_2590" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="219dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="600dp"
+            android:src="@drawable/rectangle_2590" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="225dp"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginEnd="158dp"
+            android:layout_marginBottom="554dp"
+            android:src="@drawable/bekerja_di_perusahaan" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="203dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="206dp"
+            android:layout_marginEnd="209dp"
+            android:layout_marginBottom="664dp"
+            android:src="@drawable/melanjutkan_ke" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="384dp"
+            android:layout_marginEnd="164dp"
+            android:layout_marginBottom="474dp"
+            android:src="@drawable/tanggal_mulai_bekerja" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="266dp"
+            android:layout_height="21dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="478dp"
+            android:layout_marginEnd="155dp"
+            android:src="@drawable/penghasilan_____rp_" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView16"
+            android:layout_alignTop="@+id/imageView16"
+            android:layout_alignEnd="@+id/imageView16"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="610dp"
+            android:background="@android:drawable/edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Masukkan teks"
+            android:inputType="text"
+            android:text="Melanjutkan Ke-"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView16"
+            android:layout_alignTop="@+id/imageView15"
+            android:layout_alignEnd="@+id/imageView16"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="610dp"
+            android:background="@android:drawable/edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Masukkan teks"
+            android:inputType="text"
+            android:text="Bekerja Di Perusahaan"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView14"
+            android:layout_alignTop="@+id/imageView14"
+            android:layout_alignEnd="@+id/imageView14"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="426dp"
+            android:background="@android:drawable/edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Masukkan teks"
+            android:inputType="text"
+            android:text="Tanggal Mulai Bekerja"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="341dp"
+            android:layout_height="109dp"
+            android:layout_alignStart="@+id/imageView13"
+            android:layout_alignTop="@+id/imageView13"
+            android:layout_alignEnd="@+id/imageView13"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="337dp"
+            android:background="@android:drawable/edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Masukkan teks"
+            android:inputType="text"
+            android:text="Penghasilan"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="284dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="126dp"
+            android:layout_marginEnd="130dp"
+            app:srcCompat="@drawable/setelah_lulus" />
+
+        <ImageButton
+            android:id="@+id/selanjutnya"
+            android:layout_width="223dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="617dp"
+            android:layout_marginEnd="-5dp"
+            android:layout_marginBottom="277dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="button 2"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/group_7144" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

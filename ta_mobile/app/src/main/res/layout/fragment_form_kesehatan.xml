@@ -14,8 +14,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="My Image"
+        android:paddingTop="20dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/titlebiodatasiswa" />
+        android:src="@drawable/title_kesehatan" />
 
     <!-- Biodata Details -->
     <LinearLayout
@@ -36,7 +37,7 @@
             android:textColor="@color/blue" />
 
         <Spinner
-            android:id="@+id/golongamn_darah"
+            android:id="@+id/golongan_darah"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/custom_edittext_background"

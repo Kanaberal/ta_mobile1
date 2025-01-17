@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".form_keterangan_setelah_lulus">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF" >
+
+
+        <ImageButton
+            android:id="@+id/kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="513dp"
+            android:layout_marginEnd="212dp"
+            android:layout_marginBottom="278dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="button 3"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/group_7143"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-30dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="116dp"
+            android:layout_marginBottom="707dp"
+            app:srcCompat="@drawable/perkembangan" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="403dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="416dp"
+            android:src="@drawable/rectangle_2590" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="311dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="508dp"
+            android:src="@drawable/rectangle_2590" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="219dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="600dp"
+            android:src="@drawable/rectangle_2590" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView15"
+            android:layout_alignTop="@+id/imageView15"
+            android:layout_alignEnd="@+id/imageView15"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="517dp"
+            android:background="@android:drawable/edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Masukkan teks"
+            android:inputType="text"
+            android:text="Meniggalkan Sekolah"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView16"
+            android:layout_alignTop="@+id/imageView16"
+            android:layout_alignEnd="@+id/imageView16"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="517dp"
+            android:background="@android:drawable/edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Masukkan teks"
+            android:inputType="text"
+            android:text="Meniggalkan Sekolah"
+            android:textSize="16sp" />
+
+
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView14"
+            android:layout_alignTop="@+id/imageView14"
+            android:layout_alignEnd="@+id/imageView14"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="426dp"
+            android:background="@android:drawable/edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Masukkan teks"
+            android:inputType="text"
+            android:text="Akhir Pendidikan"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/selanjutnya"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="515dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="277dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="button 2"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/group_7144"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="192dp"
+            android:layout_height="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="193dp"
+            android:layout_marginBottom="668dp"
+            app:srcCompat="@drawable/menerima_beasiswa" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="394dp"
+            android:layout_marginEnd="216dp"
+            android:layout_marginBottom="482dp"
+            app:srcCompat="@drawable/akhir_pendidikan" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="298dp"
+            android:layout_marginEnd="183dp"
+            app:srcCompat="@drawable/meninggalkan_sekolah" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

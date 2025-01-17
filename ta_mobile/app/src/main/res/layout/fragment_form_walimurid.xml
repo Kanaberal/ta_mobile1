@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".form_keterangan_setelah_lulus">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/kembali"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="863dp"
+                android:layout_marginEnd="209dp"
+                android:layout_marginBottom="278dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="button 3"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/group_7143" />
+
+            <ImageButton
+                android:id="@+id/selanjutnya"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="211dp"
+                android:layout_marginTop="864dp"
+                android:layout_marginEnd="23dp"
+                android:layout_marginBottom="277dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="button 2"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/group_7144" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageView20"
+                android:layout_alignEnd="@+id/imageView20"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="286dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Masukkan teks"
+                android:inputType="text"
+                android:text="Name"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageView20"
+                android:layout_alignEnd="@+id/imageView20"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="799dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Masukkan teks"
+                android:inputType="text"
+                android:text="Name"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageView20"
+                android:layout_alignEnd="@+id/imageView20"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="714dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Masukkan teks"
+                android:inputType="text"
+                android:text="Name"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageView20"
+                android:layout_alignTop="@+id/imageView20"
+                android:layout_alignEnd="@+id/imageView20"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="627dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="610dp"
+                android:background="@drawable/background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Masukkan teks"
+                android:inputType="text"
+                android:text="Name"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageView20"
+                android:layout_alignTop="@+id/imageView20"
+                android:layout_alignEnd="@+id/imageView20"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="541dp"
+                android:layout_marginEnd="-25dp"
+                android:layout_marginBottom="610dp"
+                android:background="@drawable/background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Masukkan teks"
+                android:inputType="text"
+                android:text="Name"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageView20"
+                android:layout_alignTop="@+id/imageView20"
+                android:layout_alignEnd="@+id/imageView20"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="456dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="610dp"
+                android:background="@drawable/background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Masukkan teks"
+                android:inputType="text"
+                android:text="Name"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageView20"
+                android:layout_alignTop="@+id/imageView20"
+                android:layout_alignEnd="@+id/imageView20"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="369dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="610dp"
+                android:background="@drawable/background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Masukkan teks"
+                android:inputType="text"
+                android:text="Name"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageView20"
+                android:layout_alignEnd="@+id/imageView20"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="201dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="610dp"
+                android:background="@drawable/background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Masukkan teks"
+                android:inputType="text"
+                android:text="Name"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageView20"
+                android:layout_alignEnd="@+id/imageView20"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="114dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="610dp"
+                android:background="@drawable/background"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Masukkan teks"
+                android:inputType="text"
+                android:text="Name"
+                android:textSize="16sp"
+                tools:ignore="UnknownId" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="431dp"
+                android:layout_marginEnd="38dp"
+                android:fontFamily="@font/opensansbold"
+                android:text="Riwayat Pendidikan "
+                android:textColor="#79ACF3"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="775dp"
+                android:layout_marginEnd="36dp"
+                android:fontFamily="@font/opensansbold"
+                android:text="Masih Hidup/Meninggal Dunia"
+                android:textColor="#79ACF3"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="352dp"
+                android:layout_height="23dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="690dp"
+                android:layout_marginEnd="39dp"
+                android:fontFamily="@font/opensansbold"
+                android:text="Alamat Rumah/Telp."
+                android:textColor="#79ACF3"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="603dp"
+                android:layout_marginEnd="89dp"
+                android:fontFamily="@font/opensansbold"
+                android:text="Pengeluaran per Bulan "
+                android:textColor="#79ACF3"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="517dp"
+                android:layout_marginEnd="155dp"
+                android:fontFamily="@font/opensansbold"
+                android:text="Pekerjaan"
+                android:textColor="#79ACF3"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="346dp"
+                android:layout_marginEnd="154dp"
+                android:fontFamily="@font/opensansbold"
+                android:text="Kewarganegaraan"
+                android:textColor="#79ACF3"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="355dp"
+                android:layout_height="23dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="262dp"
+                android:layout_marginEnd="31dp"
+                android:fontFamily="@font/opensansbold"
+                android:text="Agama"
+                android:textColor="#79ACF3"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="343dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="91dp"
+                android:layout_marginEnd="45dp"
+                android:fontFamily="@font/opensansbold"
+                android:text="Nama"
+                android:textColor="#79ACF3"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="177dp"
+                android:layout_marginEnd="43dp"
+                android:fontFamily="@font/opensansbold"
+                android:text="Tempat dan Tanggal Lahir"
+                android:textColor="#79ACF3"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="147dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="-40dp"
+                app:srcCompat="@drawable/wowowowowo" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

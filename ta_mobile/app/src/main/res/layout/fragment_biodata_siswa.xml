@@ -12,6 +12,7 @@
     <ImageView
         android:id="@+id/my_image_view"
         android:layout_width="wrap_content"
+        android:paddingTop="20dp"
         android:layout_height="wrap_content"
         android:contentDescription="My Image"
         android:scaleType="centerCrop"
@@ -120,6 +121,7 @@
             android:layout_marginTop="16dp"
             android:text="Kewarganegaraan"
             android:textStyle="bold"
+            android:textSize="17dp"
             android:textColor="@color/blue" />
 
         <EditText

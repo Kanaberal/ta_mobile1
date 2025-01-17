@@ -1,395 +1,235 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:contentDescription="Menu_button">
-
-
-
-
-    <TextView
-        android:id="@+id/Siswa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="176dp"
-        android:layout_marginBottom="809dp"
-        android:text="Tambah Siswa"
-        android:textColor="#79ACF3"
-        android:textSize="25sp"
-        android:textStyle="bold" />
-
-    <ImageButton
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="39dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:contentDescription="next"
-        app:srcCompat="@drawable/rectangle_2592" />
-
-    <ImageButton
-        android:id="@+id/back"
-        android:layout_width="180dp"
-        android:layout_height="52dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="199dp"
-        android:layout_marginBottom="35dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:contentDescription="back"
-        app:srcCompat="@drawable/rectangle_2592__1_" />
+    android:orientation="vertical"
+    android:background="@android:color/white">
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/my_image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/back"
-        android:layout_alignTop="@+id/back"
-        android:layout_alignEnd="@+id/back"
-        android:layout_alignBottom="@+id/back"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="115dp"
-        android:layout_marginBottom="13dp"
-        app:srcCompat="@drawable/vector" />
+        android:contentDescription="My Image"
+        android:paddingTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/title_ayah" />
 
-    <TextView
-        android:id="@+id/kembali"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/back"
-        android:layout_alignTop="@+id/back"
-        android:layout_alignEnd="@+id/back"
-        android:layout_alignBottom="@+id/back"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="1dp"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        android:text="Kembali"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/next"
-        android:layout_alignTop="@+id/next"
-        android:layout_alignEnd="@+id/next"
-        android:layout_alignBottom="@+id/next"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginBottom="10dp"
-        android:background="?android:attr/selectableItemBackground"
-        app:srcCompat="@drawable/vector__1_" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+                android:padding="16dp">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/next"
-        android:layout_alignTop="@+id/next"
-        android:layout_alignEnd="@+id/imageView8"
-        android:layout_alignBottom="@+id/next"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="10dp"
+                <!-- Name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Nama"
+                    android:textColor="@color/blue"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
 
-        android:text="Selanjutnya"
-        android:textColor="#2264E5"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/Nama_ayah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:hint="Nama"
+                    android:padding="12dp" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="225dp"
-        android:layout_height="39dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="232dp"
-        android:layout_marginBottom="758dp"
-        app:srcCompat="@drawable/rectangle_2591__1_" />
+                <!-- tempat tanggal lahir -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Tempat,tanggal lahir"
+                    android:textColor="@color/blue"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView3"
-        android:layout_alignBottom="@+id/imageView3"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="3dp"
+                <EditText
+                    android:id="@+id/tempat_lahir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:hint="Tempat, tanggal lahir"
+                    android:padding="12dp" />
 
-        android:text="Biodata Ayah"
-        android:textColor="#FFFFFF"
-        android:textSize="23sp"
-        android:textStyle="bold" />
+                <!-- Jenis Kelamin -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Agama"
+                    android:textColor="@color/blue"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/nama"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="144dp"
+                <Spinner
+                    android:id="@+id/spinner_agama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:padding="12dp" />
 
-        android:text="Nama"
-        android:textColor="#79ACF3"
-        android:textSize="17sp"
-        android:textStyle="bold" />
+                <!-- kewarganegaraan
+                 -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Kewarganegaraan"
+                    android:textColor="@color/blue"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/ttl"
-        android:layout_width="251dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="221dp"
-        android:layout_marginEnd="129dp"
+                <Spinner
+                    android:id="@+id/et_kewarganegaraan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:padding="12dp" />
 
-        android:text="Tempat dan Tanggal Lahir"
-        android:textColor="#79ACF3"
-        android:textSize="17sp"
-        android:textStyle="bold" />
+                <!-- Riwayat Pendidikan -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Riwayat pendidikan"
+                    android:textColor="@color/blue"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/agama"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="308dp"
-        android:layout_marginEnd="323dp"
+                <Spinner
+                    android:id="@+id/riwayat_pendidikan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:hint="Riwayat pendidikan"
+                    android:padding="12dp" />
 
-        android:text="Agama"
-        android:textColor="#79ACF3"
-        android:textSize="17sp"
-        android:textStyle="bold" />
+                <!-- pekerjaan -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Pekerjaan"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/edit_nama"
-        android:layout_width="405dp"
-        android:layout_height="52dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="22dp"
-        android:background="@drawable/backround"
-        android:ems="10"
-        android:hint="Nama"
-        android:inputType="text"
-        android:paddingStart="20dp"
-        android:textColorHint="@color/Gray" />
+                <EditText
+                    android:id="@+id/spinner_pekerjaan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Pekerjaan"
+                    android:background="@drawable/custom_edittext_background"
+                    android:padding="12dp" />
 
-    <EditText
-        android:id="@+id/edit_ttl"
-        android:layout_width="405dp"
-        android:layout_height="52dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="250dp"
-        android:layout_marginEnd="21dp"
-        android:background="@drawable/backround"
-        android:ems="10"
-        android:hint="Tempat dan Tanggal Lahir"
-        android:inputType="text"
-        android:paddingStart="20dp"
-        android:textColorHint="@color/Gray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Pengeluaran per bulan"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/edit_agama"
-        android:layout_width="405dp"
-        android:layout_height="52dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="333dp"
-        android:layout_marginEnd="22dp"
-        android:background="@drawable/backround"
-        android:ems="10"
-        android:hint="Agama"
-        android:inputType="text"
-        android:paddingStart="20dp"
-        android:textColorHint="@color/Gray" />
+                <Spinner
+                    android:id="@+id/pengeluaran"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:padding="12dp" />
 
-    <TextView
-        android:id="@+id/kewarganegaraan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="387dp"
-        android:layout_marginEnd="245dp"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Alamat rumah"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
 
-        android:text="Kewarganegaraan"
-        android:textColor="#79ACF3"
-        android:textSize="17sp"
-        android:textStyle="bold" />
+                <Spinner
+                    android:id="@+id/spinner_alamat_rumah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:padding="12dp" />
 
-    <EditText
-        android:id="@+id/edit_kewarganegaraan"
-        android:layout_width="405dp"
-        android:layout_height="52dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="415dp"
-        android:layout_marginEnd="22dp"
-        android:background="@drawable/backround"
-        android:ems="10"
-        android:hint="Kewarganegaraan"
-        android:inputType="text"
-        android:paddingStart="20dp"
-        android:textColorHint="@color/Gray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Paket Keahlian/telp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="304dp"
-        android:layout_marginBottom="400dp"
+                <Spinner
+                    android:id="@+id/spinner_paket_keahlian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:padding="12dp" />
 
-        android:text="Pekerjaan"
-        android:textColor="#79ACF3"
-        android:textSize="17sp"
-        android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Status hidup"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/edit_pekerjaan"
-        android:layout_width="405dp"
-        android:layout_height="52dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="492dp"
-        android:layout_marginEnd="22dp"
-        android:background="@drawable/backround"
-        android:ems="10"
-        android:hint="Pekerjaan"
-        android:inputType="text"
-        android:paddingStart="20dp"
-        android:textColorHint="@color/Gray" />
+                <Spinner
+                    android:id="@+id/status_hidup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:padding="12dp" />
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="155dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="544dp"
-        android:layout_marginEnd="226dp"
-        android:layout_marginBottom="322dp"
+            </LinearLayout>
 
-        android:text="Alamat / No.Telp"
-        android:textColor="#79ACF3"
-        android:textSize="17sp"
-        android:textStyle="bold" />
+            <!-- Next Button -->
 
-    <EditText
-        android:id="@+id/edit_alamat"
-        android:layout_width="405dp"
-        android:layout_height="52dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="572dp"
-        android:layout_marginEnd="20dp"
-        android:background="@drawable/backround"
-        android:ems="10"
-        android:hint="Alamat dan No. Telepon"
-        android:inputType="text"
-        android:paddingStart="20dp"
-        android:textColorHint="@color/Gray" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/Riwayat"
-        android:layout_width="155dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="626dp"
-        android:layout_marginEnd="223dp"
-        android:layout_marginBottom="240dp"
+                <ImageButton
+                    android:id="@+id/kembali"
+                    android:layout_width="180dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginBottom="130dp"
+                    android:background="@color/white"
+                    android:contentDescription="Button"
+                    android:src="@drawable/kembali_btn" />
 
-        android:text="Riwayat Pendidikan"
-        android:textColor="#79ACF3"
-        android:textSize="17sp"
-        android:textStyle="bold" />
+                <ImageButton
+                    android:id="@+id/selanjutnya"
+                    android:layout_width="180dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginBottom="130dp"
+                    android:background="@color/white"
+                    android:contentDescription="Button"
+                    android:src="@drawable/selanjutnya" />
 
-    <EditText
-        android:id="@+id/edit_riwayat"
-        android:layout_width="405dp"
-        android:layout_height="52dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="655dp"
-        android:layout_marginEnd="19dp"
-        android:background="@drawable/backround"
-        android:ems="10"
-        android:hint="Riwayat Pendidikan"
-        android:inputType="text"
-        android:paddingStart="20dp"
-        android:textColorHint="@color/Gray" />
 
-    <EditText
-        android:id="@+id/edit_status"
-        android:layout_width="405dp"
-        android:layout_height="52dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="728dp"
-        android:layout_marginEnd="20dp"
-        android:background="@drawable/backround"
-        android:ems="10"
-        android:hint="Status Hidup"
-        android:inputType="text"
-        android:paddingStart="20dp"
-        android:textColorHint="@color/Gray" />
+            </LinearLayout>
+        </LinearLayout>
 
-    <TextView
-        android:id="@+id/Status"
-        android:layout_width="155dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="704dp"
-        android:layout_marginEnd="224dp"
-        android:layout_marginBottom="162dp"
+    </ScrollView>
 
-        android:text="Status Hidup"
-        android:textColor="#79ACF3"
-        android:textSize="17sp"
-        android:textStyle="bold" />
-
-</RelativeLayout>
+</LinearLayout>

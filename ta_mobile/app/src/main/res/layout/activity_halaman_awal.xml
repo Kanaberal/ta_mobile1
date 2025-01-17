@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
 
         android:layout_height="wrap_content"
-        android:text="Nama APK"
+        android:text="RekapKu"
         android:textAlignment="center"
         android:textColor="#F9B208"
         android:textSize="48sp"
@@ -44,7 +44,7 @@
         android:layout_width="247dp"
         android:layout_height="179dp"
         android:fontFamily="@font/opensansbold"
-        android:text="Saaat kau terpuruk, percayalah bahwa ilmu yang sudah dipelajari akan berarti kemudian hari"
+        android:text="Saat kau terpuruk, percayalah bahwa ilmu yang sudah dipelajari akan berarti kemudian hari"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp"

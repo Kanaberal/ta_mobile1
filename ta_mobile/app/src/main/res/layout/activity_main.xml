@@ -42,6 +42,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:cardElevation="4dp"
+        android:background="@drawable/sidebar"
         app:cardCornerRadius="8dp">
 
         <com.google.android.material.navigation.NavigationView
@@ -51,6 +52,7 @@
             android:fitsSystemWindows="true"
             android:background="@android:color/white"
             app:menu="@menu/drawer_menu"
+
             app:headerLayout="@layout/nav_header"
             app:itemTextColor="@color/blue"
             app:itemIconTint="@color/blue"

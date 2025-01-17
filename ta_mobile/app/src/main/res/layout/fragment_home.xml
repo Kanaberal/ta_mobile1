@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    tools:layout_editor_absoluteX="-19dp"
+    tools:layout_editor_absoluteY="-156dp"
+    tools:openDrawer="start">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/group_1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="149dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Selamat"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/nama_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="Nama_User"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/zona_waktu" />
+
+    <TextView
+        android:id="@+id/zona_waktu"
+        android:layout_width="149dp"
+        android:layout_height="47dp"
+
+        android:text="Waktu"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:text="Riwayat Murid yang baru saja di buka"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="170dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/rectangle_7__2_" />
+
+    <ImageView
+        android:id="@+id/image8"
+        android:layout_width="170dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/rectangle_7__2_" />
+
+    <ImageView
+        android:id="@+id/image7"
+        android:layout_width="170dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/rectangle_7__2_" />
+
+    <ImageView
+        android:id="@+id/image9"
+        android:layout_width="170dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/rectangle_7__2_" />
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="170dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="05.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/rectangle_7__2_" />
+
+    <ImageView
+        android:id="@+id/Gambar_data_1"
+        android:layout_width="121dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/image"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="@+id/image"
+        app:layout_constraintTop_toTopOf="@+id/image"
+        app:srcCompat="@drawable/group_7172" />
+
+    <ImageView
+        android:id="@+id/Gambar_data_3"
+        android:layout_width="121dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/image8"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/image8"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        app:srcCompat="@drawable/group_7172" />
+
+    <ImageView
+        android:id="@+id/Gambar_data_2"
+        android:layout_width="121dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/image7"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/image7"
+        app:layout_constraintTop_toTopOf="@+id/image7"
+        app:srcCompat="@drawable/group_7172" />
+
+    <ImageView
+        android:id="@+id/Gambar_data_4"
+        android:layout_width="121dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/image9"
+        app:layout_constraintStart_toStartOf="@+id/image9"
+        app:layout_constraintTop_toTopOf="@+id/image9"
+        app:srcCompat="@drawable/group_7172" />
+
+    <TextView
+        android:id="@+id/Nama_Data_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Nama Data"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/image7"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/image7"
+        app:layout_constraintTop_toBottomOf="@+id/Gambar_data_2" />
+
+    <TextView
+        android:id="@+id/Nama_Data_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Nama Data"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/image9"
+        app:layout_constraintStart_toStartOf="@+id/image9"
+        app:layout_constraintTop_toBottomOf="@+id/Gambar_data_4" />
+
+    <TextView
+        android:id="@+id/Nama_Data_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Nama Data"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/image8"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="@+id/image8"
+        app:layout_constraintTop_toBottomOf="@+id/Gambar_data_3" />
+
+    <TextView
+        android:id="@+id/Nama_Data_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Nama Data"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/image"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/Gambar_data_1" />
+
+    <TextView
+        android:id="@+id/Kelas_data_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Kelas Data"
+        app:layout_constraintEnd_toEndOf="@+id/image"
+        app:layout_constraintStart_toStartOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/Nama_Data_1" />
+
+    <TextView
+        android:id="@+id/Kelas_data_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Kelas Data"
+        app:layout_constraintEnd_toEndOf="@+id/image8"
+        app:layout_constraintStart_toStartOf="@+id/image8"
+        app:layout_constraintTop_toBottomOf="@+id/Nama_Data_3" />
+
+    <TextView
+        android:id="@+id/Kelas_data_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Kelas Data"
+        app:layout_constraintEnd_toEndOf="@+id/image7"
+        app:layout_constraintStart_toStartOf="@+id/image7"
+        app:layout_constraintTop_toBottomOf="@+id/Nama_Data_2" />
+
+    <TextView
+        android:id="@+id/Kelas_data_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Kelas Data"
+        app:layout_constraintEnd_toEndOf="@+id/image9"
+        app:layout_constraintStart_toStartOf="@+id/image9"
+        app:layout_constraintTop_toBottomOf="@+id/Nama_Data_4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
